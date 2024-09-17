@@ -2,8 +2,7 @@ START
     INPUT num
     SET a = 0
     SET b = 1  
-
-    WHILE num > 0
+ WHILE num > 0
         IF num % 100 = 90  
             SET a = a + 9 * b
             SET num = num / 100  
@@ -15,7 +14,7 @@ START
         ENDIF
     END WHILE
 
-    PRINT b
+ PRINT b
 END
 
 
